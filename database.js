@@ -58,7 +58,13 @@ async function insertChatHistory(user, message, length) {
  */
 async function deleteChatHistory(user) {
   const collection = database.collection('chathistory');
-  const result = await collection.findOneAndDelete({user: user});
+  const result = await collection.findOneAndReplace(
+      {user: user},
+      {
+        user: user,
+        messages: [],
+      },
+  );
   return result;
 }
 

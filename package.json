@@ -7,6 +7,7 @@
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
+    "azure-openai": "^0.9.4",
     "botbuilder": "^4.19.3",
     "chatgpt": "^5.1.2",
     "mongodb": "^5.1.0",
