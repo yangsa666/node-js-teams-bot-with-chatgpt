@@ -64,7 +64,7 @@ class ChatGPTBot extends ActivityHandler {
         };
         if (commandActions[txt]) {
           await commandActions[txt]();
-          await context.sendActivity(`Excuted command '${txt}' successfully`);
+          await context.sendActivity(`Executed command '${txt}' successfully`);
           return;
         }
         const userMessage = {role: 'user', content: txt};
