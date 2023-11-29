@@ -7,8 +7,11 @@
       "MicrosoftAppId":"",
       "MicrosoftAppPassword":"",
       "OPENAI_API_KEY": "",
-      "OpenAI_MODEL":"gpt-3.5-turbo",
+      "OpenAI_MODEL":"",
       "Chat_History_Length": "10",
+      "AZURE_API_KEY": "",
+      "AZURE_ENDPOINT": "",
+      "AZURE_DEPLOYMENT_NAME": "",
       "MongoDb_Connection_String": ""
     }
   }
