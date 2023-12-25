@@ -54,7 +54,7 @@ class ChatGPTBot extends ActivityHandler {
       ]);
 
       // Check if recipent is the Bot, do not reply if not
-      const botName = 'ChatGPTBot';
+      const botName = process.env.BotName;
       const recipientName = context.activity.recipient.name;
       if (recipientName !== botName) {
         console.log('Not sent to bot in the message');
