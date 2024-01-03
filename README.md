@@ -5,7 +5,7 @@ A Teams bot to let you chat with ChatGPT on Teams.
 
 # Build and Test
 
-## Note
+## !!!Note!!!
 If you're using Azure Open AI API, please switch to `AzureOpenAIStack` branch.
 
 ## Prerequisites
@@ -58,16 +58,6 @@ If you're using Azure Open AI API, please switch to `AzureOpenAIStack` branch.
 `OPENAI_API_KEY`: Your OpenAI API key.
 
 `OpenAI_MODEL`: Your OpenAI model
-
-You can copy Azure OpenAI key and endpoint from `Keys and Endoint` like below: 
-![image](https://github.com/yangsa666/node-js-teams-bot-with-chatgpt/assets/31430559/08dbd637-4443-40a3-9127-e0208bef66b8)
-
-`AZURE_DEPLOYMENT_NAME`: Your Azure OpenAI deployment name.
-You can go to your Azure OpenAI resource > Model deployment > Manage deployment > create or find an existing deployment.
-![image](https://github.com/yangsa666/node-js-teams-bot-with-chatgpt/assets/31430559/f473e215-a612-4dff-99fe-ea46afa2b807)
-
-In the below sample, the deployment name is `gpt35turbo`.
-![image](https://github.com/yangsa666/node-js-teams-bot-with-chatgpt/assets/31430559/6bdf7486-1ba8-4e2a-8075-112b9aa0e629)
 
 `MongoDb_Connection_String`: The connectionstring of the Azure CosmosDB for Mongo you created previously.
 ![image](https://github.com/yangsa666/node-js-teams-bot-with-chatgpt/assets/31430559/792939e9-f6d1-4ad0-b948-182c0307b9b1)
