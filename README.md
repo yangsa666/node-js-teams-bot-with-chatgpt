@@ -7,6 +7,8 @@ A Teams bot to let you chat with ChatGPT on Teams.
 
 ## !!!Note!!!
 If you're using Azure Open AI API, please switch to `AzureOpenAIStack` branch.
+You can switch branch via the steps below in VSCode.
+![image](https://github.com/yangsa666/node-js-teams-bot-with-chatgpt/assets/31430559/f48b9f0e-e6f4-4ffc-985e-731ca0e50c04)
 
 ## Prerequisites
 1. Install Node.js: [Node.js (nodejs.org)](https://nodejs.org/en/)
