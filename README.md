@@ -5,6 +5,9 @@ A Teams bot to let you chat with ChatGPT on Teams.
 
 # Build and Test
 
+## Note
+If you're using Azure Open AI API, please switch to `AzureOpenAIStack` branch.
+
 ## Prerequisites
 1. Install Node.js: [Node.js (nodejs.org)](https://nodejs.org/en/)
 2. Install Git: [Git for Windows](https://gitforwindows.org/)
@@ -52,9 +55,9 @@ A Teams bot to let you chat with ChatGPT on Teams.
 
 `MicrosoftAppPassword`: Client secret of the bot you created previously.
 
-`AZURE_API_KEY`: Your Azure OpenAI resource API key.
+`OPENAI_API_KEY`: Your OpenAI API key.
 
-`AZURE_ENDPOINT`: Your Azure OpenAI endpoint
+`OpenAI_MODEL`: Your OpenAI model
 
 You can copy Azure OpenAI key and endpoint from `Keys and Endoint` like below: 
 ![image](https://github.com/yangsa666/node-js-teams-bot-with-chatgpt/assets/31430559/08dbd637-4443-40a3-9127-e0208bef66b8)
