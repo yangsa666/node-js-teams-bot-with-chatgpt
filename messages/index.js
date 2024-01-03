@@ -49,6 +49,6 @@ const myBot = new ChatGPTBot();
 
 module.exports = async function(context, req) {
   context.log('JavaScript HTTP trigger function processed a request.');
-  context.log(req);
+  // context.log(req); // uncomment this when debugging
   await adapter.process(req, context.res, (context) => myBot.run(context));
 };
