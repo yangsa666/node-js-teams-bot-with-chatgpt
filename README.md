@@ -5,11 +5,6 @@ A Teams bot to let you chat with ChatGPT on Teams.
 
 # Build and Test
 
-## !!!Note!!!
-If you're using Azure Open AI API, please switch to `AzureOpenAIStack` branch.
-You can switch branch via the steps below in VSCode.
-![image](https://github.com/yangsa666/node-js-teams-bot-with-chatgpt/assets/31430559/f48b9f0e-e6f4-4ffc-985e-731ca0e50c04)
-
 ## Prerequisites
 1. Install Node.js: [Node.js (nodejs.org)](https://nodejs.org/en/)
 2. Install Git: [Git for Windows](https://gitforwindows.org/)
@@ -67,7 +62,14 @@ You can switch branch via the steps below in VSCode.
 
 7. Open Azure Functions Extension, sign in your Azure subscription account to deploy it in the resource group you created before and upload settings to Azure Functions App. See more details [here](https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-web-app/azure-function-resource-group-management/deploy-azure-function-with-visual-studio-code#use-visual-studio-code-extension-to-deploy-to-hosting-environment).
 
+   **!!!Note!!!**
+      If you're using Azure Open AI API, please switch to `AzureOpenAIStack` branch. You can switch branch via the steps below in VSCode.
+
+   ![image](https://github.com/yangsa666/node-js-teams-bot-with-chatgpt/assets/31430559/f48b9f0e-e6f4-4ffc-985e-731ca0e50c04)
+
    ![image](https://github.com/yangsa666/node-js-teams-bot-with-chatgpt/assets/31430559/85043635-f52c-4620-b221-e281166d4e60)
+
+
 
 9. After deploying it, configure the Azure function URL in the Teams bot Endpoint URL in Teams developer portal.
     You can get Azure Function URL by going to Azure Portal, locate your function app you created in the steps above. Then go to messages function, click `Get Function Url` button.
